@@ -4,7 +4,7 @@ This project uses [Apache Airflow](https://airflow.apache.org/) to manage and au
 - Dowload dump file from wikimedia, storing it in a compressed `.gz` format.
 - Extract pageview data from wikimedia, storing it in a text `.txt` format.
 - Check if the extracted file was downloaded.
-- Transform it into a structured format by filtering selected companies `["Amazon", "Apple", "Facebook", "Google", "Microsoft"]` and their page views to a.`.sql` file.
+- Transform it into a structured format by filtering selected companies `"Amazon", "Apple", "Facebook", "Google", "Microsoft"` and their page views to a.`.sql` file.
 - And, Load it into a SQLite database for analysis.
 
   ![image](https://github.com/user-attachments/assets/0c29c98e-cfd2-4bc4-ae33-66ff8be644b1)

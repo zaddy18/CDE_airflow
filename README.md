@@ -10,7 +10,7 @@ This project uses [Apache Airflow](https://airflow.apache.org/) to manage and au
   ![image](https://github.com/user-attachments/assets/0c29c98e-cfd2-4bc4-ae33-66ff8be644b1)
 
 
-## Project Structure
+## Project files
 Main folder:
 ```plaintext
 ├── dags/

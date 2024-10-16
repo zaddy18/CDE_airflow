@@ -1,0 +1,927 @@
+[2024-10-16T07:26:57.438+0100] {processor.py:161} INFO - Started process (PID=17555) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:26:57.440+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:26:57.441+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:26:57.440+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:26:57.447+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:26:57.446+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 9, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-10-16T07:26:57.448+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:26:57.495+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.062 seconds
+[2024-10-16T07:27:14.344+0100] {processor.py:161} INFO - Started process (PID=17703) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:27:14.349+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:27:14.351+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:27:14.350+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:27:14.367+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:27:14.365+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 12, in <module>
+    from wiki.functions import download_pageviews,filter_company_pageviews,load_data,analyze_data,check_file_exists,get_top_company
+ModuleNotFoundError: No module named 'wiki.functions'
+[2024-10-16T07:27:14.368+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:27:14.437+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.099 seconds
+[2024-10-16T07:27:46.131+0100] {processor.py:161} INFO - Started process (PID=17981) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:27:46.135+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:27:46.138+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:27:46.137+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:27:46.150+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:27:46.149+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 12, in <module>
+    from wiki.funk import download_pageviews,filter_company_pageviews,load_data,analyze_data,check_file_exists,get_top_company
+ImportError: cannot import name 'analyze_data' from 'wiki.funk' (/home/zizi/airflow/airbox/dags/wiki/funk.py)
+[2024-10-16T07:27:46.151+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:27:46.200+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.076 seconds
+[2024-10-16T07:28:40.136+0100] {processor.py:161} INFO - Started process (PID=18448) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:28:40.157+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:28:40.159+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:28:40.158+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:28:40.169+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:28:40.167+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 12, in <module>
+    from wiki.funk import download_pageviews,filter_company_pageviews,load_data,analyze_data,check_file_exists,get_top_company
+ImportError: cannot import name 'analyze_data' from 'wiki.funk' (/home/zizi/airflow/airbox/dags/wiki/funk.py)
+[2024-10-16T07:28:40.171+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:28:40.213+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.082 seconds
+[2024-10-16T07:29:07.371+0100] {processor.py:161} INFO - Started process (PID=18786) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:29:07.375+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:29:07.377+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:29:07.376+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:29:07.390+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:29:07.388+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 18, in <module>
+    dag = DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'owner'
+[2024-10-16T07:29:07.391+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:29:07.433+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.068 seconds
+[2024-10-16T07:30:03.271+0100] {processor.py:161} INFO - Started process (PID=19387) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:30:03.294+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:30:03.297+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:30:03.296+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:30:03.309+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:30:03.307+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 18, in <module>
+    dag = DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'owner'
+[2024-10-16T07:30:03.309+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:30:03.358+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.095 seconds
+[2024-10-16T07:30:57.795+0100] {processor.py:161} INFO - Started process (PID=19989) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:30:57.816+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:30:57.817+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:30:57.817+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:30:57.838+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:30:57.836+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 44, in <module>
+    python_callable=check_file_exists('/tmp/pages.txt'),
+  File "/home/zizi/airflow/airbox/dags/wiki/funk.py", line 20, in check_file_exists
+    raise FileNotFoundError(f"{file_path} does not exist.")
+FileNotFoundError: /tmp/pages.txt does not exist.
+[2024-10-16T07:30:57.839+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:30:57.886+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.101 seconds
+[2024-10-16T07:31:24.237+0100] {processor.py:161} INFO - Started process (PID=20207) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:31:24.262+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:31:24.264+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:31:24.264+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:31:24.286+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:31:24.283+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 43, in <module>
+    python_callable=check_file_exists('/tmp/pages.txt'),
+  File "/home/zizi/airflow/airbox/dags/wiki/funk.py", line 20, in check_file_exists
+    raise FileNotFoundError(f"{file_path} does not exist.")
+FileNotFoundError: /tmp/pages.txt does not exist.
+[2024-10-16T07:31:24.287+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:31:24.330+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.099 seconds
+[2024-10-16T07:32:17.865+0100] {processor.py:161} INFO - Started process (PID=20684) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:32:17.887+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:32:17.889+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:32:17.888+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:32:17.907+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:32:17.905+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 43, in <module>
+    python_callable=check_file_exists('/tmp/pages.txt'),
+  File "/home/zizi/airflow/airbox/dags/wiki/funk.py", line 20, in check_file_exists
+    raise FileNotFoundError(f"{file_path} does not exist.")
+FileNotFoundError: /tmp/pages.txt does not exist.
+[2024-10-16T07:32:17.908+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:32:17.947+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.089 seconds
+[2024-10-16T07:32:43.101+0100] {processor.py:161} INFO - Started process (PID=20901) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:32:43.106+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:32:43.108+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:32:43.107+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:32:43.125+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:32:43.318+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:32:43.317+0100] {override.py:1769} INFO - Created Permission View: can edit on DAG:wikipedia_pageviews
+[2024-10-16T07:32:43.344+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:32:43.343+0100] {override.py:1769} INFO - Created Permission View: can delete on DAG:wikipedia_pageviews
+[2024-10-16T07:32:43.361+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:32:43.360+0100] {override.py:1769} INFO - Created Permission View: can read on DAG:wikipedia_pageviews
+[2024-10-16T07:32:43.362+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:32:43.362+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:32:43.394+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:32:43.392+0100] {dag.py:3058} INFO - Creating ORM DAG for wikipedia_pageviews
+[2024-10-16T07:32:43.396+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:32:43.395+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:32:43.458+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.362 seconds
+[2024-10-16T07:33:11.643+0100] {processor.py:161} INFO - Started process (PID=21255) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:33:11.646+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:33:11.647+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:33:11.647+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:33:11.660+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:33:11.671+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:33:11.670+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:33:11.686+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:33:11.686+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:33:11.719+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.081 seconds
+[2024-10-16T07:34:03.089+0100] {processor.py:161} INFO - Started process (PID=21622) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:34:03.094+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:34:03.097+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:34:03.096+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:34:03.115+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:34:03.113+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 18, in <module>
+    dag = DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'Owners'
+[2024-10-16T07:34:03.117+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:34:03.170+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.095 seconds
+[2024-10-16T07:34:57.907+0100] {processor.py:161} INFO - Started process (PID=22186) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:34:57.928+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:34:57.930+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:34:57.929+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:34:57.940+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:34:57.938+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 18, in <module>
+    dag = DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'Owners'
+[2024-10-16T07:34:57.941+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:34:57.983+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.085 seconds
+[2024-10-16T07:35:55.477+0100] {processor.py:161} INFO - Started process (PID=22581) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:35:55.480+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:35:55.483+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:35:55.482+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:35:55.492+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:35:55.490+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 18, in <module>
+    dag = DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'Owners'
+[2024-10-16T07:35:55.493+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:35:55.533+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.064 seconds
+[2024-10-16T07:36:50.534+0100] {processor.py:161} INFO - Started process (PID=23020) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:36:50.556+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:36:50.558+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:36:50.558+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:36:50.567+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:36:50.565+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 18, in <module>
+    dag = DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'Owners'
+[2024-10-16T07:36:50.568+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:36:50.609+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.084 seconds
+[2024-10-16T07:37:17.217+0100] {processor.py:161} INFO - Started process (PID=23230) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:37:17.241+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:37:17.245+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:37:17.243+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:37:17.260+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:37:17.258+0100] {dagbag.py:348} ERROR - Failed to import: /home/zizi/airflow/airbox/dags/wiki/wiki.py
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 24, in <module>
+    dag = DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'Catchup'
+[2024-10-16T07:37:17.261+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:37:17.317+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.113 seconds
+[2024-10-16T07:37:44.359+0100] {processor.py:161} INFO - Started process (PID=23487) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:37:44.361+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:37:44.364+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:37:44.363+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:37:44.404+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:37:44.612+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:37:44.612+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:37:44.648+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:37:44.648+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:37:44.741+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.391 seconds
+[2024-10-16T07:38:12.819+0100] {processor.py:161} INFO - Started process (PID=23870) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:38:12.823+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:38:12.826+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:38:12.825+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:38:12.849+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:38:12.865+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:38:12.864+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:38:12.910+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:38:12.909+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:38:12.986+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.178 seconds
+[2024-10-16T07:39:06.481+0100] {processor.py:161} INFO - Started process (PID=24319) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:39:06.487+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:39:06.490+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:39:06.489+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:39:06.511+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:39:06.582+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:39:06.581+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:39:06.616+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:39:06.616+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:39:06.680+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.209 seconds
+[2024-10-16T07:39:58.688+0100] {processor.py:161} INFO - Started process (PID=24779) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:39:58.712+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:39:58.715+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:39:58.714+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:39:58.743+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:39:58.797+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:39:58.796+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:39:58.820+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:39:58.819+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:39:58.867+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.190 seconds
+[2024-10-16T07:40:49.878+0100] {processor.py:161} INFO - Started process (PID=25317) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:40:49.900+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:40:49.902+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:40:49.901+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:40:49.919+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:40:49.963+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:40:49.962+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:40:49.989+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:40:49.988+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:40:50.040+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.169 seconds
+[2024-10-16T07:41:45.088+0100] {processor.py:161} INFO - Started process (PID=25777) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:41:45.091+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:41:45.094+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:41:45.093+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:41:45.128+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:41:45.188+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:41:45.187+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:41:45.238+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:41:45.238+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:41:45.309+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.232 seconds
+[2024-10-16T07:42:43.252+0100] {processor.py:161} INFO - Started process (PID=26345) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:42:43.257+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:42:43.259+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:42:43.258+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:42:43.283+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:42:43.500+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:42:43.500+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:42:43.524+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:42:43.524+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:42:43.570+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.325 seconds
+[2024-10-16T07:45:18.147+0100] {processor.py:161} INFO - Started process (PID=28527) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:45:18.151+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:45:18.153+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:45:18.152+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:45:18.170+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:45:18.256+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:45:18.256+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:45:18.275+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:45:18.275+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:45:18.317+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.175 seconds
+[2024-10-16T07:46:25.500+0100] {processor.py:161} INFO - Started process (PID=29299) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:46:25.521+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:46:25.523+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:46:25.522+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:46:25.540+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:46:25.586+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:46:25.585+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:46:25.602+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:46:25.601+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:46:25.635+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.145 seconds
+[2024-10-16T07:47:18.068+0100] {processor.py:161} INFO - Started process (PID=29685) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:47:18.089+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:47:18.091+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:47:18.090+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:47:18.106+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:47:18.151+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:47:18.150+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:47:18.178+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:47:18.177+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:47:18.234+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.173 seconds
+[2024-10-16T07:48:09.846+0100] {processor.py:161} INFO - Started process (PID=30103) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:48:09.849+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:48:09.852+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:48:09.850+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:48:09.865+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:48:09.920+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:48:09.919+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:48:09.961+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:48:09.961+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:48:10.040+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.200 seconds
+[2024-10-16T07:49:08.893+0100] {processor.py:161} INFO - Started process (PID=30508) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:49:08.915+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:49:08.917+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:49:08.916+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:49:08.931+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:49:09.013+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:49:09.011+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:49:09.036+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:49:09.035+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:49:09.076+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.192 seconds
+[2024-10-16T07:50:03.326+0100] {processor.py:161} INFO - Started process (PID=30881) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:50:03.347+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:50:03.349+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:50:03.348+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:50:03.371+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:50:03.409+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:50:03.409+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:50:03.426+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:50:03.426+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:50:03.466+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.146 seconds
+[2024-10-16T07:51:02.138+0100] {processor.py:161} INFO - Started process (PID=31378) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:51:02.159+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:51:02.161+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:51:02.160+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:51:02.172+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:51:02.202+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:51:02.201+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:51:02.224+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:51:02.224+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:51:02.262+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.129 seconds
+[2024-10-16T07:51:55.463+0100] {processor.py:161} INFO - Started process (PID=31743) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:51:55.484+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:51:55.485+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:51:55.485+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:51:55.499+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:51:55.543+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:51:55.542+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:51:55.563+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:51:55.562+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:51:55.593+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.137 seconds
+[2024-10-16T07:52:54.883+0100] {processor.py:161} INFO - Started process (PID=32366) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:52:54.887+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:52:54.890+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:52:54.889+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:52:54.909+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:52:54.966+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:52:54.966+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:52:55.001+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:52:55.000+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:52:55.062+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.187 seconds
+[2024-10-16T07:53:28.031+0100] {processor.py:161} INFO - Started process (PID=32649) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:53:28.053+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:53:28.056+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:53:28.054+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:53:28.081+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:53:28.149+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:53:28.148+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:53:28.190+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:53:28.189+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:53:28.305+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.284 seconds
+[2024-10-16T07:54:01.508+0100] {processor.py:161} INFO - Started process (PID=33145) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:54:01.530+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:54:01.533+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:54:01.532+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:54:01.554+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:54:01.616+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:54:01.616+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:54:01.630+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:54:01.630+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:54:01.674+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.180 seconds
+[2024-10-16T07:54:41.367+0100] {processor.py:161} INFO - Started process (PID=33603) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:54:41.370+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:54:41.373+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:54:41.372+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:54:41.394+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:54:41.458+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:54:41.457+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:54:41.481+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:54:41.480+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:54:41.552+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.194 seconds
+[2024-10-16T07:56:19.517+0100] {processor.py:161} INFO - Started process (PID=34798) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:56:19.524+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:56:19.527+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:56:19.526+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:56:19.547+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:56:19.620+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:56:19.619+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:56:19.649+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:56:19.649+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:56:19.701+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.191 seconds
+[2024-10-16T07:58:13.782+0100] {processor.py:161} INFO - Started process (PID=36347) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:58:13.784+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:58:13.785+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:58:13.785+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:58:13.794+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:58:13.820+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:58:13.819+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:58:13.833+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:58:13.833+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:58:13.860+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.083 seconds
+[2024-10-16T07:58:55.538+0100] {processor.py:161} INFO - Started process (PID=36642) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:58:55.541+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:58:55.542+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:58:55.542+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:58:55.552+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:58:55.582+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:58:55.582+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:58:55.595+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:58:55.595+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:58:55.628+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.095 seconds
+[2024-10-16T07:59:36.706+0100] {processor.py:161} INFO - Started process (PID=36967) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:59:36.707+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:59:36.709+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:59:36.708+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:59:36.716+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:59:36.746+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:59:36.746+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:59:36.758+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:59:36.758+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:59:36.784+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.082 seconds
+[2024-10-16T07:59:58.909+0100] {processor.py:161} INFO - Started process (PID=37137) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:59:58.911+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T07:59:58.913+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:59:58.912+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:59:58.927+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T07:59:58.968+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:59:58.968+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T07:59:58.992+0100] {logging_mixin.py:188} INFO - [2024-10-16T07:59:58.992+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T07:59:59.050+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.146 seconds
+[2024-10-16T08:00:42.842+0100] {processor.py:161} INFO - Started process (PID=37541) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:00:42.844+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:00:42.845+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:00:42.845+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:00:42.855+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:00:42.886+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:00:42.885+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:00:42.899+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:00:42.899+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:00:42.931+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.093 seconds
+[2024-10-16T08:01:23.957+0100] {processor.py:161} INFO - Started process (PID=37891) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:01:23.961+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:01:23.963+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:01:23.962+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:01:23.975+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:01:24.012+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:01:24.011+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:01:24.023+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:01:24.022+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:01:24.059+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.106 seconds
+[2024-10-16T08:02:14.252+0100] {processor.py:161} INFO - Started process (PID=38459) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:02:14.254+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:02:14.255+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:02:14.255+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:02:14.264+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:02:14.289+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:02:14.288+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:02:14.299+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:02:14.299+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:02:14.327+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.080 seconds
+[2024-10-16T08:03:02.635+0100] {processor.py:161} INFO - Started process (PID=38828) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:03:02.639+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:03:02.640+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:03:02.640+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:03:02.649+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:03:02.685+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:03:02.684+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:03:02.704+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:03:02.703+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:03:02.733+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.103 seconds
+[2024-10-16T08:03:46.969+0100] {processor.py:161} INFO - Started process (PID=39240) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:03:46.971+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:03:46.973+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:03:46.973+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:03:46.990+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:03:47.035+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:03:47.035+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:03:47.054+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:03:47.054+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:03:47.087+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.127 seconds
+[2024-10-16T08:04:08.924+0100] {processor.py:161} INFO - Started process (PID=39419) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:04:08.927+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:04:08.928+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:04:08.928+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:04:08.937+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:04:08.960+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:04:08.960+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:04:08.971+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:04:08.971+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:04:09.003+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.083 seconds
+[2024-10-16T08:04:49.843+0100] {processor.py:161} INFO - Started process (PID=39712) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:04:49.845+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:04:49.846+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:04:49.846+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:04:49.857+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:04:49.889+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:04:49.888+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:04:49.900+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:04:49.900+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:04:49.928+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.090 seconds
+[2024-10-16T08:05:26.918+0100] {processor.py:161} INFO - Started process (PID=39981) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:05:26.921+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:05:26.922+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:05:26.922+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:05:26.930+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:05:26.955+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:05:26.955+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:05:26.966+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:05:26.966+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:05:26.990+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.076 seconds
+[2024-10-16T08:06:06.742+0100] {processor.py:161} INFO - Started process (PID=40333) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:06:06.744+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:06:06.746+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:06:06.745+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:06:06.755+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:06:06.780+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:06:06.780+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:06:06.800+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:06:06.799+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:06:06.866+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.127 seconds
+[2024-10-16T08:06:46.130+0100] {processor.py:161} INFO - Started process (PID=40622) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:06:46.132+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:06:46.133+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:06:46.133+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:06:46.144+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:06:46.188+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:06:46.188+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:06:46.207+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:06:46.206+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:06:46.240+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.116 seconds
+[2024-10-16T08:07:27.406+0100] {processor.py:161} INFO - Started process (PID=40944) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:07:27.408+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:07:27.409+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:07:27.408+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:07:27.417+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:07:27.448+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:07:27.448+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:07:27.460+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:07:27.459+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:07:27.484+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.082 seconds
+[2024-10-16T08:08:14.522+0100] {processor.py:161} INFO - Started process (PID=41281) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:08:14.525+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:08:14.526+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:08:14.525+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:08:14.534+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:08:14.559+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:08:14.559+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:08:14.570+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:08:14.570+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:08:14.597+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.079 seconds
+[2024-10-16T08:09:00.272+0100] {processor.py:161} INFO - Started process (PID=41601) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:09:00.275+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:09:00.276+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:09:00.276+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:09:00.284+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:09:00.308+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:09:00.308+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:09:00.318+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:09:00.318+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:09:00.346+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.079 seconds
+[2024-10-16T08:09:46.657+0100] {processor.py:161} INFO - Started process (PID=41992) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:09:46.662+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:09:46.663+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:09:46.662+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:09:46.672+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:09:46.704+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:09:46.704+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:09:46.716+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:09:46.715+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:09:46.744+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.092 seconds
+[2024-10-16T08:10:29.226+0100] {processor.py:161} INFO - Started process (PID=42305) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:10:29.228+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:10:29.229+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:10:29.229+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:10:29.238+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:10:29.263+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:10:29.263+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:10:29.275+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:10:29.275+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:10:29.301+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.079 seconds
+[2024-10-16T08:11:12.000+0100] {processor.py:161} INFO - Started process (PID=42613) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:11:12.003+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:11:12.004+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:11:12.003+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:11:12.013+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:11:12.037+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:11:12.037+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:11:12.048+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:11:12.048+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:11:12.075+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.079 seconds
+[2024-10-16T08:11:51.008+0100] {processor.py:161} INFO - Started process (PID=42892) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:11:51.010+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:11:51.011+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:11:51.010+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:11:51.019+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:11:51.043+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:11:51.043+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:11:51.055+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:11:51.055+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:11:51.079+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.075 seconds
+[2024-10-16T08:12:27.483+0100] {processor.py:161} INFO - Started process (PID=43187) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:12:27.492+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:12:27.493+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:12:27.493+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:12:27.501+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:12:27.524+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:12:27.524+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:12:27.537+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:12:27.536+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:12:27.567+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.088 seconds
+[2024-10-16T08:13:04.977+0100] {processor.py:161} INFO - Started process (PID=43455) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:13:04.980+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:13:04.981+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:13:04.981+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:13:04.990+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:13:05.031+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:13:05.031+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:13:05.043+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:13:05.042+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:13:05.078+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.107 seconds
+[2024-10-16T08:13:47.785+0100] {processor.py:161} INFO - Started process (PID=43757) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:13:47.787+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:13:47.789+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:13:47.788+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:13:47.797+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:13:47.825+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:13:47.825+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:13:47.836+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:13:47.836+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:13:47.863+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.083 seconds
+[2024-10-16T08:14:26.833+0100] {processor.py:161} INFO - Started process (PID=44041) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:14:26.836+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:14:26.838+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:14:26.837+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:14:26.848+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:14:26.873+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:14:26.873+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:14:26.885+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:14:26.885+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:14:26.921+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.092 seconds
+[2024-10-16T08:15:05.306+0100] {processor.py:161} INFO - Started process (PID=44319) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:15:05.308+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:15:05.309+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:15:05.308+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:15:05.318+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:15:05.348+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:15:05.348+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:15:05.360+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:15:05.359+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:15:05.388+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.088 seconds
+[2024-10-16T08:15:49.179+0100] {processor.py:161} INFO - Started process (PID=44632) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:15:49.182+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:15:49.183+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:15:49.183+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:15:49.194+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:15:49.235+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:15:49.235+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:15:49.249+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:15:49.249+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:15:49.274+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.100 seconds
+[2024-10-16T08:16:30.661+0100] {processor.py:161} INFO - Started process (PID=44927) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:16:30.663+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:16:30.664+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:16:30.664+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:16:30.672+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:16:30.695+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:16:30.695+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:16:30.709+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:16:30.709+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:16:30.735+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.078 seconds
+[2024-10-16T08:17:08.068+0100] {processor.py:161} INFO - Started process (PID=45202) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:17:08.071+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:17:08.072+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:17:08.072+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:17:08.095+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:17:08.186+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:17:08.185+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:17:08.212+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:17:08.212+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:17:08.292+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.238 seconds
+[2024-10-16T08:17:49.673+0100] {processor.py:161} INFO - Started process (PID=45536) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:17:49.675+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:17:49.676+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:17:49.675+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:17:49.683+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:17:49.708+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:17:49.708+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:17:49.720+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:17:49.720+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:17:49.746+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.077 seconds
+[2024-10-16T08:18:29.559+0100] {processor.py:161} INFO - Started process (PID=45890) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:18:29.562+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:18:29.563+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:18:29.563+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:18:29.573+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:18:29.605+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:18:29.605+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:18:29.619+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:18:29.619+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:18:29.650+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.095 seconds
+[2024-10-16T08:19:12.805+0100] {processor.py:161} INFO - Started process (PID=46209) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:19:12.809+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:19:12.811+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:19:12.810+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:19:12.823+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:19:12.849+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:19:12.849+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:19:12.862+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:19:12.861+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:19:12.885+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.088 seconds
+[2024-10-16T08:19:53.603+0100] {processor.py:161} INFO - Started process (PID=46507) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:19:53.606+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:19:53.608+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:19:53.607+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:19:53.615+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:19:53.642+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:19:53.641+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:19:53.653+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:19:53.653+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:19:53.677+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.078 seconds
+[2024-10-16T08:20:31.584+0100] {processor.py:161} INFO - Started process (PID=46783) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:20:31.587+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:20:31.589+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:20:31.588+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:20:31.601+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:20:31.637+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:20:31.637+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:20:31.648+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:20:31.648+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:20:31.676+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.100 seconds
+[2024-10-16T08:21:11.510+0100] {processor.py:161} INFO - Started process (PID=47071) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:21:11.513+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:21:11.514+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:21:11.513+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:21:11.523+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:21:11.547+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:21:11.546+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:21:11.560+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:21:11.560+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:21:11.595+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.090 seconds
+[2024-10-16T08:21:53.035+0100] {processor.py:161} INFO - Started process (PID=47367) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:21:53.038+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:21:53.039+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:21:53.038+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:21:53.047+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:21:53.074+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:21:53.074+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:21:53.086+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:21:53.085+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:21:53.118+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.087 seconds
+[2024-10-16T08:22:34.768+0100] {processor.py:161} INFO - Started process (PID=47699) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:22:34.771+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:22:34.772+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:22:34.772+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:22:34.780+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:22:34.803+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:22:34.803+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:22:34.814+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:22:34.814+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:22:34.841+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.078 seconds
+[2024-10-16T08:23:14.633+0100] {processor.py:161} INFO - Started process (PID=47986) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:23:14.635+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:23:14.636+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:23:14.636+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:23:14.645+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:23:14.668+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:23:14.668+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:23:14.681+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:23:14.680+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:23:14.706+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.077 seconds
+[2024-10-16T08:23:57.395+0100] {processor.py:161} INFO - Started process (PID=48294) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:23:57.397+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:23:57.398+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:23:57.398+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:23:57.413+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:23:57.442+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:23:57.442+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:23:57.453+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:23:57.453+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:23:57.482+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.093 seconds
+[2024-10-16T08:24:36.552+0100] {processor.py:161} INFO - Started process (PID=48574) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:24:36.554+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:24:36.555+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:24:36.554+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:24:36.564+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:24:36.588+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:24:36.587+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:24:36.598+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:24:36.598+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:24:36.624+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.077 seconds
+[2024-10-16T08:25:13.170+0100] {processor.py:161} INFO - Started process (PID=48843) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:25:13.172+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:25:13.174+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:25:13.173+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:25:13.188+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:25:13.245+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:25:13.245+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:25:13.262+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:25:13.261+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:25:13.296+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.132 seconds
+[2024-10-16T08:25:56.262+0100] {processor.py:161} INFO - Started process (PID=49155) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:25:56.264+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:25:56.266+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:25:56.265+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:25:56.275+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:25:56.305+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:25:56.305+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:25:56.321+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:25:56.321+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:25:56.352+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.094 seconds
+[2024-10-16T08:26:41.262+0100] {processor.py:161} INFO - Started process (PID=49476) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:26:41.266+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:26:41.267+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:26:41.266+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:26:41.276+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:26:41.305+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:26:41.304+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:26:41.323+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:26:41.322+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:26:41.364+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.108 seconds
+[2024-10-16T08:27:25.404+0100] {processor.py:161} INFO - Started process (PID=49823) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:27:25.406+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:27:25.407+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:27:25.407+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:27:25.417+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:27:25.451+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:27:25.451+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:27:25.462+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:27:25.462+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:27:25.492+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.094 seconds
+[2024-10-16T08:28:08.846+0100] {processor.py:161} INFO - Started process (PID=50152) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:28:08.850+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:28:08.852+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:28:08.851+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:28:08.862+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:28:08.898+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:28:08.898+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:28:08.913+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:28:08.912+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:28:08.947+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.108 seconds
+[2024-10-16T08:28:50.386+0100] {processor.py:161} INFO - Started process (PID=50517) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:28:50.390+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:28:50.391+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:28:50.390+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:28:50.399+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:28:50.423+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:28:50.422+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:28:50.436+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:28:50.436+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:28:50.461+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.079 seconds
+[2024-10-16T08:29:33.961+0100] {processor.py:161} INFO - Started process (PID=50929) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:29:33.963+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:29:33.964+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:29:33.964+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:29:33.973+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:29:33.997+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:29:33.997+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:29:34.008+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:29:34.008+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:29:34.037+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.080 seconds
+[2024-10-16T08:30:24.061+0100] {processor.py:161} INFO - Started process (PID=51490) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:30:24.063+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:30:24.065+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:30:24.064+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:30:24.080+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:30:24.120+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:30:24.120+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:30:24.136+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:30:24.135+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:30:24.171+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.116 seconds
+[2024-10-16T08:31:36.821+0100] {processor.py:161} INFO - Started process (PID=52623) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:31:36.825+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:31:36.826+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:31:36.825+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:31:36.839+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:31:36.873+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:31:36.873+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:31:36.887+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:31:36.887+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:31:36.923+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.107 seconds
+[2024-10-16T08:32:16.409+0100] {processor.py:161} INFO - Started process (PID=53004) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:32:16.412+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:32:16.413+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:32:16.412+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:32:16.421+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:32:16.445+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:32:16.445+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:32:16.456+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:32:16.456+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:32:16.484+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.080 seconds
+[2024-10-16T08:32:55.115+0100] {processor.py:161} INFO - Started process (PID=53382) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:32:55.121+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:32:55.122+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:32:55.121+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:32:55.129+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:32:55.153+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:32:55.153+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:32:55.164+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:32:55.164+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:32:55.205+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.094 seconds
+[2024-10-16T08:33:35.431+0100] {processor.py:161} INFO - Started process (PID=53715) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:33:35.433+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:33:35.434+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:33:35.433+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:33:35.442+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:33:35.465+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:33:35.465+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:33:35.477+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:33:35.476+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:33:35.504+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.078 seconds
+[2024-10-16T08:34:20.364+0100] {processor.py:161} INFO - Started process (PID=54079) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:34:20.367+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:34:20.368+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:34:20.368+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:34:20.378+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:34:20.408+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:34:20.408+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:34:20.421+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:34:20.421+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:34:20.451+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.094 seconds
+[2024-10-16T08:35:00.160+0100] {processor.py:161} INFO - Started process (PID=54460) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:35:00.165+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:35:00.166+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:35:00.166+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:35:00.176+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:35:00.205+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:35:00.205+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:35:00.224+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:35:00.224+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:35:00.261+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.106 seconds
+[2024-10-16T08:35:41.352+0100] {processor.py:161} INFO - Started process (PID=54769) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:35:41.355+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:35:41.356+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:35:41.355+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:35:41.365+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:35:41.400+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:35:41.400+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:35:41.411+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:35:41.410+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:35:41.439+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.093 seconds
+[2024-10-16T08:36:23.351+0100] {processor.py:161} INFO - Started process (PID=55072) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:36:23.353+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:36:23.354+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:36:23.354+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:36:23.363+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:36:23.388+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:36:23.388+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:36:23.399+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:36:23.399+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:36:23.431+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.084 seconds
+[2024-10-16T08:37:18.674+0100] {processor.py:161} INFO - Started process (PID=55456) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:37:18.677+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:37:18.678+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:37:18.678+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:37:18.689+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:37:18.720+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:37:18.720+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:37:18.735+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:37:18.735+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:37:18.766+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.098 seconds
+[2024-10-16T08:38:11.230+0100] {processor.py:161} INFO - Started process (PID=55849) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:38:11.251+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:38:11.253+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:38:11.253+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:38:11.267+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:38:11.311+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:38:11.310+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:38:11.334+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:38:11.334+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:38:11.381+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.158 seconds
+[2024-10-16T08:39:04.072+0100] {processor.py:161} INFO - Started process (PID=56223) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:39:04.093+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:39:04.095+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:39:04.094+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:39:04.109+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:39:04.154+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:39:04.153+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:39:04.174+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:39:04.174+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:39:04.214+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.151 seconds
+[2024-10-16T08:39:54.385+0100] {processor.py:161} INFO - Started process (PID=56573) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:39:54.407+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:39:54.409+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:39:54.408+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:39:54.425+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:39:54.475+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:39:54.475+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:39:54.497+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:39:54.497+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:39:54.540+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.167 seconds
+[2024-10-16T08:40:43.815+0100] {processor.py:161} INFO - Started process (PID=56922) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:40:43.837+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:40:43.839+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:40:43.839+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:40:43.855+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:40:43.927+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:40:43.926+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:40:43.951+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:40:43.950+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:40:43.995+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.192 seconds
+[2024-10-16T08:41:38.472+0100] {processor.py:161} INFO - Started process (PID=57299) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:41:38.494+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:41:38.496+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:41:38.496+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:41:38.517+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:41:38.571+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:41:38.571+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:41:38.601+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:41:38.601+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:41:38.655+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.195 seconds
+[2024-10-16T08:42:32.354+0100] {processor.py:161} INFO - Started process (PID=57705) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:42:32.358+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:42:32.362+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:42:32.360+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:42:32.386+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:42:32.450+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:42:32.449+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:42:32.484+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:42:32.483+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:42:32.549+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.208 seconds
+[2024-10-16T08:43:31.059+0100] {processor.py:161} INFO - Started process (PID=58110) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:43:31.080+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:43:31.082+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:43:31.081+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:43:31.100+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:43:31.169+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:43:31.168+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:43:31.201+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:43:31.200+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:43:31.274+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.223 seconds
+[2024-10-16T08:44:28.368+0100] {processor.py:161} INFO - Started process (PID=58503) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:44:28.388+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:44:28.389+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:44:28.389+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:44:28.405+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:44:28.447+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:44:28.446+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:44:28.474+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:44:28.473+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:44:28.529+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.166 seconds
+[2024-10-16T08:45:20.787+0100] {processor.py:161} INFO - Started process (PID=58874) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:45:20.809+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:45:20.811+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:45:20.810+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:45:20.827+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:45:20.871+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:45:20.870+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:45:20.884+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:45:20.884+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:45:20.918+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.138 seconds
+[2024-10-16T08:46:15.923+0100] {processor.py:161} INFO - Started process (PID=59259) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:46:15.925+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:46:15.927+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:46:15.926+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:46:15.942+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:46:15.987+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:46:15.986+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:46:16.008+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:46:16.007+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:46:16.056+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.140 seconds
+[2024-10-16T08:47:07.747+0100] {processor.py:161} INFO - Started process (PID=59616) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:47:07.751+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:47:07.753+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:47:07.752+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:47:07.768+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:47:07.812+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:47:07.812+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:47:07.831+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:47:07.831+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:47:07.870+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.130 seconds
+[2024-10-16T08:48:07.214+0100] {processor.py:161} INFO - Started process (PID=60046) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:48:07.236+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:48:07.239+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:48:07.238+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:48:07.261+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:48:07.311+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:48:07.311+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:48:07.327+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:48:07.326+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:48:07.363+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.161 seconds
+[2024-10-16T08:48:37.550+0100] {processor.py:161} INFO - Started process (PID=60249) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:48:37.555+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:48:37.560+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:48:37.558+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:48:37.613+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:48:37.693+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:48:37.692+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:48:37.714+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:48:37.713+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:48:37.756+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.223 seconds
+[2024-10-16T08:49:09.716+0100] {processor.py:161} INFO - Started process (PID=60472) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:49:09.719+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:49:09.721+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:49:09.720+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:49:09.734+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:49:09.768+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:49:09.768+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:49:09.783+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:49:09.782+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:49:09.814+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.103 seconds
+[2024-10-16T08:50:06.138+0100] {processor.py:161} INFO - Started process (PID=60881) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:50:06.159+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:50:06.162+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:50:06.161+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:50:06.182+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:50:06.283+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:50:06.282+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:50:06.312+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:50:06.312+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:50:06.370+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.243 seconds
+[2024-10-16T08:50:37.564+0100] {processor.py:161} INFO - Started process (PID=61094) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:50:37.576+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:50:37.579+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:50:37.578+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:50:37.614+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:50:37.690+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:50:37.689+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:50:37.711+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:50:37.711+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:50:37.755+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.211 seconds
+[2024-10-16T08:51:11.314+0100] {processor.py:161} INFO - Started process (PID=61325) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:51:11.337+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:51:11.340+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:51:11.338+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:51:11.364+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:51:11.427+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:51:11.427+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:51:11.448+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:51:11.448+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:51:11.485+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.183 seconds
+[2024-10-16T08:51:42.255+0100] {processor.py:161} INFO - Started process (PID=61541) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:51:42.257+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:51:42.259+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:51:42.258+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:51:42.274+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:51:42.317+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:51:42.316+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:51:42.342+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:51:42.341+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:51:42.411+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.163 seconds
+[2024-10-16T08:52:35.596+0100] {processor.py:161} INFO - Started process (PID=61945) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:52:35.617+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:52:35.619+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:52:35.618+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:52:35.629+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:52:35.661+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:52:35.661+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:52:35.676+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:52:35.676+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:52:35.709+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.120 seconds
+[2024-10-16T08:53:30.383+0100] {processor.py:161} INFO - Started process (PID=62319) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:53:30.406+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:53:30.409+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:53:30.408+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:53:30.432+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:53:30.487+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:53:30.487+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:53:30.510+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:53:30.509+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:53:30.557+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.184 seconds
+[2024-10-16T08:54:21.354+0100] {processor.py:161} INFO - Started process (PID=62683) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:54:21.377+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:54:21.379+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:54:21.378+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:54:21.398+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:54:21.450+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:54:21.450+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:54:21.470+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:54:21.470+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:54:21.523+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.179 seconds
+[2024-10-16T08:55:16.309+0100] {processor.py:161} INFO - Started process (PID=63061) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:55:16.312+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:55:16.313+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:55:16.313+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:55:16.326+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:55:16.363+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:55:16.363+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:55:16.386+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:55:16.385+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:55:16.426+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.124 seconds
+[2024-10-16T08:56:09.870+0100] {processor.py:161} INFO - Started process (PID=63438) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:56:09.873+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:56:09.876+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:56:09.875+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:56:09.891+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:56:09.953+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:56:09.953+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:56:09.978+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:56:09.977+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:56:10.020+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.157 seconds
+[2024-10-16T08:57:06.836+0100] {processor.py:161} INFO - Started process (PID=63829) to work on /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:57:06.857+0100] {processor.py:830} INFO - Processing file /home/zizi/airflow/airbox/dags/wiki/wiki.py for tasks to queue
+[2024-10-16T08:57:06.859+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:57:06.858+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:57:06.874+0100] {processor.py:840} INFO - DAG(s) 'wikipedia_pageviews' retrieved from /home/zizi/airflow/airbox/dags/wiki/wiki.py
+[2024-10-16T08:57:06.922+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:57:06.921+0100] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-10-16T08:57:06.938+0100] {logging_mixin.py:188} INFO - [2024-10-16T08:57:06.937+0100] {dag.py:3823} INFO - Setting next_dagrun for wikipedia_pageviews to None, run_after=None
+[2024-10-16T08:57:06.967+0100] {processor.py:183} INFO - Processing /home/zizi/airflow/airbox/dags/wiki/wiki.py took 0.136 seconds

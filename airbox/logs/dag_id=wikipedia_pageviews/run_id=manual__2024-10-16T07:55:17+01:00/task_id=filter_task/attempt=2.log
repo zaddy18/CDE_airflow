@@ -1,0 +1,27 @@
+[2024-10-16T08:30:15.502+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_pageviews.filter_task manual__2024-10-16T07:55:17+01:00 [queued]>
+[2024-10-16T08:30:15.511+0100] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_pageviews.filter_task manual__2024-10-16T07:55:17+01:00 [queued]>
+[2024-10-16T08:30:15.512+0100] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2024-10-16T08:30:15.537+0100] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): filter_task> on 2024-10-16 06:55:17+00:00
+[2024-10-16T08:30:15.541+0100] {standard_task_runner.py:60} INFO - Started process 51329 to run task
+[2024-10-16T08:30:15.548+0100] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'wikipedia_pageviews', 'filter_task', 'manual__2024-10-16T07:55:17+01:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/wiki/wiki.py', '--cfg-path', '/tmp/tmpq0leil6c']
+[2024-10-16T08:30:15.551+0100] {standard_task_runner.py:88} INFO - Job 19: Subtask filter_task
+[2024-10-16T08:30:15.602+0100] {task_command.py:423} INFO - Running <TaskInstance: wikipedia_pageviews.filter_task manual__2024-10-16T07:55:17+01:00 [running]> on host ZIZI.
+[2024-10-16T08:30:15.673+0100] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='wikipedia_pageviews' AIRFLOW_CTX_TASK_ID='filter_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-16T06:55:17+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-16T07:55:17+01:00'
+[2024-10-16T08:30:15.676+0100] {logging_mixin.py:188} INFO - Input path: /home/zizi/airflow/airbox/dags/wiki/pages.txt
+[2024-10-16T08:30:15.676+0100] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/zizi/airflow/airbox/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/zizi/airflow/airbox/dags/wiki/wiki.py", line 58, in <lambda>
+    python_callable=lambda:filter_company_pageviews('/home/zizi/airflow/airbox/dags/wiki/pages.txt','/home/zizi/airflow/airbox/dags/wiki/Insert.sql'),
+  File "/home/zizi/airflow/airbox/dags/wiki/funk.py", line 28, in filter_company_pageviews
+    with open(input_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/zizi/airflow/airbox/dags/wiki/pages.txt'
+[2024-10-16T08:30:15.681+0100] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=wikipedia_pageviews, task_id=filter_task, execution_date=20241016T065517, start_date=20241016T073015, end_date=20241016T073015
+[2024-10-16T08:30:15.698+0100] {standard_task_runner.py:107} ERROR - Failed to execute job 19 for task filter_task ([Errno 2] No such file or directory: '/home/zizi/airflow/airbox/dags/wiki/pages.txt'; 51329)
+[2024-10-16T08:30:15.721+0100] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-10-16T08:30:15.741+0100] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

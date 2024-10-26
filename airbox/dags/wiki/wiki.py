@@ -20,7 +20,7 @@ arg = {
 }
 }
 
-# Define the DAG
+# Defining the DAG
 dag = DAG(
     start_date = datetime(2024, 10, 2),
     dag_id='wikipedia_pageviews',
@@ -74,4 +74,4 @@ analyze_data_task = PythonOperator(
 )
 
 #Set the order of execution of tasks.
-download_task >> unzip_task >> check_file_task >>filter_task >> load_task >> analyze_data_task
+download_task >> unzip_task >> check_file_task >> filter_task >> load_task >> analyze_data_task

@@ -37,7 +37,7 @@ def filter_company_pageviews(input_path, output_sql_path):
                     f"INSERT INTO pageviews (company, view_count) VALUES ('{page_title.title()}', {view_count});"
                 )
     
-    # Write the insert statements to the SQL file
+    # Writing the insert statements to the SQL file
     with open(output_sql_path, 'w') as sql_file:
         sql_file.write("\n".join(insert_statements))
 
@@ -46,7 +46,6 @@ def filter_company_pageviews(input_path, output_sql_path):
 def load_data(sql_path):
     db_url = 'sqlite:///airflow.db'  # sqlite database URL due to testing
     engine = create_engine(db_url)
-    
     
     drop_table = """
     DROP TABLE IF EXISTS pageviews;
@@ -57,19 +56,19 @@ def load_data(sql_path):
         view_count INTEGER
     );
     """
-    
+
     with engine.begin() as conn:  
-        # Run first two SQL commands before insert
+        # Running first two SQL commands before insert
         conn.execute(text(drop_table))
         conn.execute(text(create_table))
     
-    # Opening the SQL file to split by individual statements because sqlite does not allow executing multiple SQL statements in a single call when using execute
+    # Opening the SQL file to split by individual queries because SQLite does not allow executing multiple SQL statements in a single call when using execute
     with open(sql_path, 'r') as f:
         sql_commands = f.read().split(';')
         
     with engine.begin() as conn:  # starting a transaction
         for command in sql_commands:
-            if command.strip():  # Only run non-null commands to increase execution rate
+            if command.strip():  # Running this non-null commands to increase execution rate
                 conn.execute(text(command.strip()))
 
 
